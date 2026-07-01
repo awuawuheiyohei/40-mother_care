@@ -1,0 +1,1013 @@
+{
+  "items": [
+    {
+      "id": "XHS-001",
+      "question": "新生儿生理性黄疸在家如何护理？有哪些注意事项？",
+      "content": "新生儿生理性黄疸通常表现为出生后2-3天出现皮肤、巩膜黄染，足月儿在2周内消退。核心护理经验包括：1）保证充足喂养，促进多吃多拉，加速胆红素排出；2）可适当晒太阳，注意避免直射眼睛和过度暴晒（选择上午或傍晚温和阳光，每次10-15分钟）；3）定期监测胆红素水平，常用方法为经皮胆红素检测仪。需注意：该经验来自个人分享，未经医学验证，不适用于病理性黄疸（如黄疸出现早、进展快、大便颜色变浅或呈陶土色）。如黄疸程度加重或宝宝精神差、拒食，应及时就医。",
+      "source": "XHS (verified)",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "新生儿黄疸",
+        "生理性黄疸",
+        "护理经验",
+        "晒太阳",
+        "监测胆红素"
+      ],
+      "age_range": null,
+      "scenario": null,
+      "warning_signs": [
+        "黄疸在出生后24小时内出现",
+        "黄疸进展迅速，波及手心、脚心",
+        "宝宝精神萎靡、嗜睡、拒食、尖声哭叫",
+        "大便颜色变浅或呈白陶土色",
+        "小便颜色深黄（酱油色）"
+      ],
+      "last_updated": "2026-06-28"
+    },
+    {
+      "id": "KB-031",
+      "question": "新生儿筛查项目有哪些？",
+      "content": "宝宝出生后72小时-7天内会采足跟血筛查（先天性甲状腺功能低下、苯丙酮尿症、先天性肾上腺皮质增生、葡萄糖-6-磷酸脱氢酶缺乏等多种遗传代谢病，各地病种略有差异）；出生后48小时内做听力筛查（耳声发射OAE或AABR）。筛查结果异常≠确诊，需要复查确诊，早发现早干预效果好。",
+      "source": "中国国家卫健委《新生儿疾病筛查管理办法》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "筛查",
+        "新生儿",
+        "足跟血"
+      ],
+      "age_range": "0-1m",
+      "scenario": "milestone",
+      "warning_signs": [
+        "筛查阳性需要立即复查"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-032",
+      "question": "42天产后复查查什么？",
+      "content": "妈妈产后42天复查：妇科B超（子宫复旧）、盆底功能评估、恶露情况、伤口愈合、避孕咨询、心理评估。宝宝同步做儿童保健：身高体重头围测量、发育评估（追视、抬头、社交微笑）、喂养评估、脐带/黄疸/疫苗检查。这些都是常规项目，按时去做即可。",
+      "source": "中国国家卫健委《孕产妇保健工作规范》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "复查",
+        "新生儿",
+        "产后"
+      ],
+      "age_range": "0-2m",
+      "scenario": "milestone",
+      "warning_signs": [],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-033",
+      "question": "新生儿生理性体重下降多少正常？",
+      "content": "新生儿出生后头几天体重下降5-7%（配方奶喂养可达10%）是正常的，多在7-10天内恢复出生体重，母乳喂养宝宝可能稍慢但应密切监测。如果体重下降>10%或10-14天仍未恢复出生体重，需要评估喂养是否充足（衔乳姿势、奶量、频率）。",
+      "source": "AAP + WHO",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "体重",
+        "新生儿"
+      ],
+      "age_range": "0-1m",
+      "scenario": "milestone",
+      "warning_signs": [
+        "体重下降>10%",
+        "14天未恢复",
+        "持续嗜睡",
+        "尿量减少"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-034",
+      "question": "辅食过敏怎么识别？",
+      "content": "添加新辅食后观察3天，重点观察：1）皮肤（湿疹、风团、急性荨麻疹、口周红疹）；2）消化（呕吐、腹泻、便血、便秘）；3）呼吸道（流涕、咳嗽、喘息）。高致敏食物（鸡蛋清、花生、坚果、海鲜、芝麻、麦麸）建议在医生指导下添加。严重过敏反应（全身荨麻疹+呼吸困难+口唇肿胀）立即就医，是急症。",
+      "source": "AAP + 中国《儿童食物过敏诊断与治疗专家共识》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "辅食",
+        "过敏",
+        "喂养"
+      ],
+      "age_range": "6m+",
+      "scenario": "feeding",
+      "warning_signs": [
+        "全身荨麻疹",
+        "呼吸困难",
+        "口唇肿胀",
+        "意识改变"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-035",
+      "question": "宝宝腹泻怎么处理？",
+      "content": "判断标准：比平常大便次数明显增多、性状变稀（稀水便、蛋花汤样）。家庭护理：1）口服补液盐（ORS）补充水分和电解质，按说明书少量多次；2）继续喂养（不要饿着，母乳继续，配方奶继续，6月+可正常吃辅食）；3）注意臀部清洁防红臀；4）记录大便次数、性状、量。病毒性腹泻（如轮状病毒、诺如病毒）多自愈，警惕脱水（尿量减少、口干、眼窝凹陷、囟门凹陷、精神差）。",
+      "source": "WHO + 中国《儿童腹泻病诊断治疗原则的专家共识》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "腹泻",
+        "脱水",
+        "ORS"
+      ],
+      "age_range": "0-3y",
+      "scenario": "illness",
+      "warning_signs": [
+        "脱水征象",
+        "血便",
+        "持续呕吐",
+        "精神差",
+        "高烧"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-036",
+      "question": "宝宝咳嗽怎么护理？",
+      "content": "咳嗽是症状不是病，不必盲目止咳。家庭护理：1）保持环境湿润（加湿器，湿度50-60%，注意清洁）；2）6月+宝宝可少量温水（1岁以下不要用蜂蜜——肉毒杆菌风险）；3）抬高床头30度；4）远离二手烟。警惕需要就医：3个月以下宝宝咳嗽、呼吸急促、喘息、发烧、精神差——可能为RSV、肺炎、支气管炎。",
+      "source": "AAP",
+      "source_url": "https://www.healthychildren.org/English/health-issues/conditions/chest-lungs/Pages/Cough.aspx",
+      "confidence": "high",
+      "tags": [
+        "咳嗽",
+        "呼吸道"
+      ],
+      "age_range": "0-3y",
+      "scenario": "illness",
+      "warning_signs": [
+        "3个月以下咳嗽",
+        "呼吸急促",
+        "喘息",
+        "口唇发紫",
+        "精神差"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-037",
+      "question": "出牙期怎么护理？",
+      "content": "宝宝6月龄左右开始出牙（下门牙先出）。常见症状：流口水、咬东西、烦躁、低烧（<38°C）、睡眠倒退、轻微腹泻。护理：1）纱布蘸凉水按摩牙龈；2）磨牙玩具（冷藏后更舒服）；3）保持口腔清洁（纱布擦牙）；4）安抚情绪。发烧>38.5°C或伴严重腹泻、呕吐、拒奶——可能不是出牙引起，需考虑其他原因就医。",
+      "source": "AAP",
+      "source_url": "https://www.healthychildren.org/English/ages-stages/baby/Pages/Teething-4-to-7-Months.aspx",
+      "confidence": "high",
+      "tags": [
+        "出牙",
+        "日常护理"
+      ],
+      "age_range": "6-24m",
+      "scenario": "milestone",
+      "warning_signs": [
+        "高烧>38.5°C",
+        "持续腹泻",
+        "拒奶严重",
+        "精神差"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-038",
+      "question": "趴和翻身怎么训练？",
+      "content": "清醒且有人看护时让宝宝趴（tummy time），从出生后几天开始，每次几分钟，逐渐增加。趴有助于颈背部肌肉发育，预防扁头综合征。4月龄前后学习翻身（先仰→俯，再俯→仰）。警惕发育迟缓信号：4月龄还不会抬头、6月龄还不会翻身、9月龄还不会独坐，需要儿保科评估。不要在无人看护时让宝宝趴睡（增加SIDS风险）。",
+      "source": "AAP",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "发育",
+        "趴",
+        "翻身"
+      ],
+      "age_range": "0-6m",
+      "scenario": "milestone",
+      "warning_signs": [
+        "4月龄还不会抬头",
+        "6月龄还不会翻身",
+        "9月龄还不会独坐"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-039",
+      "question": "过敏体质怎么识别？",
+      "content": "过敏体质表现：1）皮肤：湿疹（特别是面颊、肘窝、腘窝）、反复荨麻疹；2）消化：反复腹泻/便秘、便血、严重吐奶；3）呼吸道：反复鼻塞、咳嗽、喘息；4）家族史：父母有过敏性疾病（哮喘、过敏性鼻炎、特应性皮炎、食物过敏）。确诊需要做过敏原检测（皮肤点刺或血清IgE），在医生指导下进行。不要自行给孩子做过敏原检测（结果不稳定、可能导致误判）。",
+      "source": "AAP + 中国《儿童过敏性疾病诊断及治疗专家共识》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "过敏",
+        "湿疹"
+      ],
+      "age_range": "0-6y",
+      "scenario": "illness",
+      "warning_signs": [
+        "急性全身过敏反应（休克）"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-040",
+      "question": "婴儿抚触怎么做？",
+      "content": "婴儿抚触好处：促进亲子关系、改善睡眠、缓解胀气、帮助神经系统发育。方法：室温26-28°C，宝宝清醒不饿不困时进行，用婴儿油/抚触油（避免含香精），双手搓热，从面部→胸腹→四肢→背部，每个部位4-6次，力度轻柔宝宝皮肤微红即可，5-15分钟。注意：宝宝不舒服时立即停止；不要在刚喂奶后进行；不要使用成人护肤品（含香精、激素风险）。",
+      "source": "AAP + 中国《婴儿抚触技术专家共识》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "抚触",
+        "日常护理"
+      ],
+      "age_range": "0-12m",
+      "scenario": "daily_care",
+      "warning_signs": [],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-041",
+      "question": "宝宝怎么防晒？",
+      "content": "6个月以下宝宝避免阳光直射：穿长袖长裤、戴宽檐帽、用遮阳篷/婴儿车遮阳棚，不建议使用防晒霜。6个月以上：物理防晒为主（衣物、帽子、遮阳）+必要时用婴幼儿专用物理防晒霜（成分含氧化锌/二氧化钛）。晒伤处理：凉水敷+保湿。出行避开10-00-16:00紫外线高峰。",
+      "source": "AAP",
+      "source_url": "https://www.healthychildren.org/English/safety-prevention/at-play/Pages/Sun-Safety.aspx",
+      "confidence": "high",
+      "tags": [
+        "防晒",
+        "户外"
+      ],
+      "age_range": "0-6y",
+      "scenario": "daily_care",
+      "warning_signs": [
+        "晒伤起水疱",
+        "伴发烧",
+        "大面积晒伤"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-042",
+      "question": "微量元素检测要做吗？",
+      "content": "6个月-1岁宝宝常规不需要做微量元素检测（除非医生根据临床表现判断需要）。中国国家卫健委已叫停'非诊断需要'的儿童微量元素检测。这项检测结果波动大、参考价值有限。日常饮食均衡、按时补充维生素D比检测更重要。",
+      "source": "中国国家卫健委《关于规范儿童微量元素临床检测的通知》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "检测",
+        "喂养"
+      ],
+      "age_range": "0-6y",
+      "scenario": "milestone",
+      "warning_signs": [],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-043",
+      "question": "空调怎么用？",
+      "content": "空调温度建议26-28°C（不直吹宝宝），湿度50-60%。每天通风至少1次（开窗或新风系统）。每1-2周清洗滤网（避免霉菌和尘螨）。宝宝进出空调房要擦干汗、适当增减衣物（避免冷热交替）。注意补水（6月+可少量多次饮水，1岁内白开水为主）。不要让冷风直吹宝宝头部或身体。",
+      "source": "中国《母婴健康素养》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "空调",
+        "日常护理"
+      ],
+      "age_range": "0-6y",
+      "scenario": "daily_care",
+      "warning_signs": [],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-044",
+      "question": "安全座椅怎么用？",
+      "content": "0-12月（或体重<13kg）必须使用后向式（rear-facing）安全座椅，安装在后排（不要放副驾——前排气囊对宝宝致命）。后向安装到宝宝超过座椅上限（一般2岁或达到座椅体重/身高上限）再换前向。1米以下宝宝不要坐副驾。安全座椅不能代替怀抱。短途出行也要用——多数事故发生在离家5公里内、时速30公里以下。",
+      "source": "AAP + 中国《未成年人保护法》《道路交通安全法实施条例》",
+      "source_url": "https://www.healthychildren.org/English/safety-prevention/on-the-go/Pages/Car-Safety-Seats-Information-for-Families.aspx",
+      "confidence": "high",
+      "tags": [
+        "安全座椅",
+        "出行"
+      ],
+      "age_range": "0-6y",
+      "scenario": "safety",
+      "warning_signs": [],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-045",
+      "question": "婴儿意外伤害怎么预防？",
+      "content": "主要风险点：1）窒息（小物件、食物块、塑料袋、绳带、磁力珠）；2）跌落（床、沙发、楼梯、换尿布台）；3）烫伤（热液、电饭煲/电热水壶、熨斗）；4）误食（药品、清洁剂、纽扣电池、小零件）；5）溺水（水桶、浴缸、马桶——5cm水深就可能溺水）。核心措施：1）宝宝活动区域清空危险品；2）装安全门、插座保护盖、抽屉锁；3）药品放高处带锁柜；4）洗澡/游泳全程看护——1秒都不能离开。",
+      "source": "WHO + 中国《儿童意外伤害防治建议》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "安全",
+        "意外伤害"
+      ],
+      "age_range": "0-6y",
+      "scenario": "safety",
+      "warning_signs": [
+        "任何意外都需要及时就医评估"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-001",
+      "question": "新生儿发烧多少度算危险？",
+      "content": "新生儿（0-3个月）腋温≥38.0°C 或肛温≥38.5°C 属于发热，需要立即就医。新生儿免疫系统不成熟，发烧可能是严重感染（败血症、肺炎、脑膜炎）的唯一早期信号，不能在家观察，必须去医院做血常规和必要的感染筛查。",
+      "source": "AAP",
+      "source_url": "https://www.healthychildren.org/English/ages-stages/baby/Pages/Your-Babys-First-Doctor-Visit.aspx",
+      "confidence": "high",
+      "tags": [
+        "发烧",
+        "新生儿",
+        "就医"
+      ],
+      "age_range": "0-3m",
+      "scenario": "fever",
+      "warning_signs": [
+        "体温≥38.0°C",
+        "精神反应差",
+        "拒奶",
+        "呼吸急促",
+        "皮肤发花"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-002",
+      "question": "新生儿黄疸多少算危险？",
+      "content": "新生儿黄疸是常见现象，但需要区分生理性和病理性。病理性警示信号：1）出生24小时内出现；2）足月儿血清胆红素>12.9 mg/dL（按小时龄对应光疗曲线）；3）早产儿>15 mg/dL；4）黄疸持续超过2周（足月）或3周（早产）。有这些信号必须就医。",
+      "source": "中国国家卫健委《新生儿黄疸诊治指南》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "黄疸",
+        "新生儿"
+      ],
+      "age_range": "0-1m",
+      "scenario": "jaundice",
+      "warning_signs": [
+        "24小时内出现",
+        "手脚心都黄",
+        "嗜睡不吃奶",
+        "哭声尖直"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-003",
+      "question": "3个月以上宝宝发烧38.5°C怎么办？",
+      "content": "3个月以上宝宝腋温≥38.5°C或伴明显不适时可使用退烧药。3-6个月：对乙酰氨基酚（按说明书剂量）；6个月以上：可选用布洛芬或对乙酰氨基酚（按说明书剂量）。3个月以下发烧不要自行用药，立即就医。两种药24小时内不要交替使用，除非医生指导。",
+      "source": "AAP + 中国《解热镇痛药在儿童发热对症治疗中的合理用药专家共识》",
+      "source_url": "https://www.healthychildren.org/English/health-issues/conditions/fever/Pages/Your-Baby-and-Family.aspx",
+      "confidence": "high",
+      "tags": [
+        "发烧",
+        "退烧药"
+      ],
+      "age_range": "3m+",
+      "scenario": "fever",
+      "warning_signs": [
+        "3个月以下发烧",
+        "持续高烧超过24小时",
+        "抽搐",
+        "意识不清"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-004",
+      "question": "新生儿需要喂多少奶？",
+      "content": "新生儿每次奶量约30-60ml，1-2周后增至60-90ml，每日8-12次。判断吃饱的标志：每天≥6片湿尿布，体重稳步增长（生理性体重下降≤7-10%后回升至出生体重）。不需要严格按时按量，按需喂养即可。",
+      "source": "AAP + 《美国儿科学会育儿百科》第7版",
+      "source_url": "https://www.healthychildren.org/English/ages-stages/baby/Pages/Feeding-and-Nutrition-Beyond-the-First-Year.aspx",
+      "confidence": "high",
+      "tags": [
+        "喂养",
+        "新生儿"
+      ],
+      "age_range": "0-1m",
+      "scenario": "feeding",
+      "warning_signs": [
+        "24小时不吃",
+        "体重下降>10%",
+        "尿量明显减少"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-005",
+      "question": "什么时候开始添加辅食？",
+      "content": "满6月龄开始添加辅食（180天左右）。过早（<4个月）增加过敏和肥胖风险，过晚（>8个月）可能导致营养缺乏和喂养困难。信号：能坐稳、对成人食物感兴趣、挺舌反射消失。首选强化铁的婴儿米粉，逐步引入蔬菜泥、果泥。每添加新食物观察3天。",
+      "source": "WHO + 中国营养学会《中国7-24月龄婴幼儿膳食指南》",
+      "source_url": "https://www.who.int/publications/i/item/9789241548364",
+      "confidence": "high",
+      "tags": [
+        "辅食",
+        "喂养"
+      ],
+      "age_range": "6m+",
+      "scenario": "feeding",
+      "warning_signs": [
+        "添加辅食后严重呕吐",
+        "便血",
+        "全身皮疹伴呼吸困难"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-006",
+      "question": "宝宝抽搐怎么办？",
+      "content": "这是紧急情况。立即步骤：1）保持呼吸道通畅，让宝宝侧卧防止误吸；2）不要往嘴里塞任何东西（包括毛巾、勺子、筷子）；3）记录抽搐开始时间、持续时长和表现；4）拨打120。热性惊厥一般5分钟内自行停止，超过5分钟或反复发作需急诊。",
+      "source": "WHO + 中国《热性惊厥诊断治疗与管理专家共识》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "急救",
+        "抽搐",
+        "惊厥"
+      ],
+      "age_range": "0-6y",
+      "scenario": "emergency",
+      "warning_signs": [
+        "首次抽搐",
+        "持续超过5分钟",
+        "反复发作",
+        "意识恢复慢"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-007",
+      "question": "宝宝呼吸急促怎么判断？",
+      "content": "判断标准：新生儿安静时呼吸>60次/分；1岁以下>50次/分；1-5岁>40次/分属于呼吸急促。观察鼻翼扇动、肋间隙凹陷、呻吟样呼吸、口唇发紫——这些都提示呼吸困难，需要立即就医。冬春季节警惕呼吸道合胞病毒（RSV）感染。",
+      "source": "WHO + AAP",
+      "source_url": "https://www.healthychildren.org/English/health-issues/conditions/chest-lungs/Pages/Respiratory-Syncytial-Virus-RSV.aspx",
+      "confidence": "high",
+      "tags": [
+        "呼吸",
+        "急救"
+      ],
+      "age_range": "0-5y",
+      "scenario": "emergency",
+      "warning_signs": [
+        "鼻翼扇动",
+        "胸壁凹陷",
+        "口唇发紫",
+        "呻吟样呼吸"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-008",
+      "question": "宝宝疫苗接种时间表？",
+      "content": "国家免疫规划疫苗时间表（简化版）：出生-卡介苗、乙肝第1针；1月-乙肝第2针；2月-脊灰（IPV）；3月-百白破第1、脊灰第2；4月-百白破第2、脊灰第3；5月-百白破第3；6月-乙肝第3、A群流脑第1；8月-麻腮风第1、乙脑第1；18月-百白破第4、麻腮风第2、甲肝。发烧或急性病期间暂缓。注：各地程序略有差异，以当地疾控中心或社区卫生服务中心为准。",
+      "source": "中国国家卫健委《国家免疫规划疫苗儿童免疫程序及说明（2021年版）》",
+      "source_url": "http://www.nhc.gov.cn/jkj/s3581u/202103/",
+      "confidence": "high",
+      "tags": [
+        "疫苗"
+      ],
+      "age_range": "0-6y",
+      "scenario": "vaccination",
+      "warning_signs": [
+        "接种后高烧>39°C超过24小时",
+        "全身严重过敏反应"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-009",
+      "question": "孕期叶酸怎么补？",
+      "content": "备孕前3个月开始补叶酸，每日0.4mg，至少持续到孕12周。高风险人群（神经管缺陷生育史、糖尿病、肥胖、服用抗癫痫药）建议每日0.8-1mg。叶酸能显著降低胎儿神经管缺陷（如脊柱裂）风险。",
+      "source": "WHO + 中国《孕前和孕期保健指南》",
+      "source_url": "https://www.who.int/publications/i/item/9789241548364",
+      "confidence": "high",
+      "tags": [
+        "孕期",
+        "叶酸"
+      ],
+      "age_range": "pregnancy",
+      "scenario": "pregnancy",
+      "warning_signs": [],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-010",
+      "question": "宝宝便秘怎么办？",
+      "content": "母乳宝宝几天不拉但大便软不算便秘（可能是民间说的「攒肚」，是正常现象）。配方奶宝宝便秘可尝试：1）两餐奶之间少量温水（6个月以上）；2）增加膳食纤维（西梅泥、豌豆泥）；3）腹部顺时针按摩；4）咨询医生。超过1周不缓解或大便带血需就医。不要自行使用开塞露或泻药。",
+      "source": "AAP",
+      "source_url": "https://www.healthychildren.org/English/health-issues/conditions/abdominal/Pages/Constipation.aspx",
+      "confidence": "medium",
+      "tags": [
+        "便秘",
+        "喂养"
+      ],
+      "age_range": "0-3y",
+      "scenario": "feeding",
+      "warning_signs": [
+        "便血",
+        "腹胀明显",
+        "呕吐",
+        "体重不增"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-011",
+      "question": "宝宝发烧什么时候要去医院？",
+      "content": "立即就医的标准：1）3个月以下任何发烧（即使精神好也要去）；2）3-6个月体温≥38.5°C；3）任何月龄体温≥40°C；4）发烧超过24小时无好转趋势；5）伴抽搐、意识改变、呼吸急促、持续呕吐；6）皮疹（特别是按压不褪色的出血点）。3个月以上精神状态好、吃喝正常可以先在家观察。",
+      "source": "AAP",
+      "source_url": "https://www.healthychildren.org/English/health-issues/conditions/fever/Pages/When-to-Call-the-Pediatrician.aspx",
+      "confidence": "high",
+      "tags": [
+        "发烧",
+        "就医"
+      ],
+      "age_range": "0-6y",
+      "scenario": "fever",
+      "warning_signs": [
+        "3个月以下发烧",
+        "体温≥40°C",
+        "抽搐",
+        "意识改变",
+        "按压不褪色皮疹"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-012",
+      "question": "宝宝呛奶怎么办？",
+      "content": "轻微呛奶：让宝宝侧卧，空心掌拍背5-10次，观察呼吸和面色。严重呛奶（面色发紫、无呼吸）：立即头低脚高俯卧位（新生儿），拍背5次+胸外按压（两乳头连线下方一指尖深度）5次循环，拨打120。切忌盲目抠喉或竖抱。",
+      "source": "AAP + 中国《儿童气道异物吸入诊治指南》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "急救",
+        "呛奶",
+        "新生儿"
+      ],
+      "age_range": "0-6m",
+      "scenario": "emergency",
+      "warning_signs": [
+        "面色发紫",
+        "无呼吸",
+        "意识丧失"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-013",
+      "question": "新生儿生理性 vs 病理性黄疸怎么区分？",
+      "content": "生理性黄疸：出生后2-3天出现，5-7天达峰，2周内消退（足月儿），宝宝一般情况好。病理性黄疸特征：1）出生24小时内出现；2）血清胆红素超过对应日龄光疗曲线（需要经皮胆红素或抽血评估）；3）持续时间过长（足月>2周，早产>3周）；4）退而复现。区分需要医生评估，不要自行判断。",
+      "source": "中国国家卫健委《新生儿黄疸诊治指南（2014年版）》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "黄疸",
+        "新生儿",
+        "鉴别"
+      ],
+      "age_range": "0-1m",
+      "scenario": "jaundice",
+      "warning_signs": [
+        "24小时内出现",
+        "退而复现",
+        "嗜睡不吃奶",
+        "肌张力高"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-014",
+      "question": "新生儿母乳喂养频率？",
+      "content": "新生儿期按需哺乳，每天8-12次或更多。判断母乳充足：每天≥6片湿尿布、3-4次黄色大便、宝宝吃完能安静2-3小时、体重稳步增长（满月时增加600g以上）。两侧乳房轮流喂，前奶解渴、后奶饱腹。",
+      "source": "AAP + WHO《婴幼儿喂养全球战略》",
+      "source_url": "https://www.who.int/publications/i/item/9789241548364",
+      "confidence": "high",
+      "tags": [
+        "母乳",
+        "喂养",
+        "新生儿"
+      ],
+      "age_range": "0-1m",
+      "scenario": "feeding",
+      "warning_signs": [
+        "尿量明显减少",
+        "持续嗜睡",
+        "体重不增"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-015",
+      "question": "配方奶怎么冲调？",
+      "content": "严格按说明书的粉水比例（通常1平勺奶粉+30ml水，勺子是配套的，刮平不堆）。先加水后加奶粉，避免浓度过高（增加肾脏负担）或过低（营养不够）。水温40-50°C（具体看奶粉说明），现冲现喂，剩余奶液1小时内丢弃。定期消毒奶瓶。",
+      "source": "WHO + 中国《婴幼儿配方乳粉科学喂养建议》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "配方奶",
+        "喂养"
+      ],
+      "age_range": "0-12m",
+      "scenario": "feeding",
+      "warning_signs": [
+        "冲调比例不当导致电解质紊乱"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-016",
+      "question": "吐奶 vs 溢奶的区别？",
+      "content": "溢奶：少量奶液从嘴角流出，宝宝无不适，常见于新生儿（胃呈水平位+贲门括约肌松弛），生理现象，6个月内多自行缓解。吐奶：量较多、伴呕吐动作，可能伴哭闹或不适。注意区别喷射性呕吐（量大、喷出距离远，体重不增、伴胆汁）需立即就医，警惕肥厚性幽门狭窄等。",
+      "source": "AAP + UpToDate",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "吐奶",
+        "溢奶",
+        "新生儿"
+      ],
+      "age_range": "0-6m",
+      "scenario": "feeding",
+      "warning_signs": [
+        "喷射性呕吐",
+        "呕吐伴胆汁（黄绿色）",
+        "体重不增",
+        "脱水"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-017",
+      "question": "宝宝拒奶怎么办？",
+      "content": "新生儿拒奶常见原因：1）衔乳姿势不正确（妈妈乳头疼痛+宝宝吸不出奶）；2）鼻腔堵塞（清理鼻屎或鼻涕）；3）口腔问题（鹅口疮、口腔溃疡）；4）喂养环境嘈杂；5）疾病信号（伴发烧、呼吸急促需就医）。持续拒奶超过24小时或伴精神差、皮肤弹性差需就医。",
+      "source": "AAP",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "拒奶",
+        "喂养",
+        "新生儿"
+      ],
+      "age_range": "0-6m",
+      "scenario": "feeding",
+      "warning_signs": [
+        "拒奶超过24小时",
+        "精神差",
+        "皮肤弹性差",
+        "发烧"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-018",
+      "question": "维生素D怎么补？",
+      "content": "纯母乳喂养宝宝从出生后几天开始补充维生素D，每天400 IU（10μg），持续到1岁。配方奶喂养宝宝如果每天奶量≥500ml，一般不需要额外补充。维生素D帮助钙吸收，缺乏会导致佝偻病。补维生素D不等于补钙，不要同时给钙剂（除非医生建议）。",
+      "source": "AAP + 中国《儿童维生素D营养缺乏防治建议》",
+      "source_url": "https://www.healthychildren.org/English/healthy-living/nutrition/Pages/Vitamin-D-On-the-Double.aspx",
+      "confidence": "high",
+      "tags": [
+        "维生素D",
+        "喂养",
+        "新生儿"
+      ],
+      "age_range": "0-12m",
+      "scenario": "feeding",
+      "warning_signs": [
+        "补充过量（>1000 IU/天长期）"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-019",
+      "question": "新生儿大小便规律？",
+      "content": "胎便：黑色/墨绿色，出生后24小时内排出，2-3天排完。过渡便：黄绿色。母乳便：金黄色、稀糊状，每天3-6次。配方奶便：黄褐色、稍稠，每天1-3次。小便：出生头几天每天1-2次（可能带粉红色尿酸盐结晶，正常），满月后每天≥6次清亮尿。",
+      "source": "AAP + 《美国儿科学会育儿百科》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "大小便",
+        "新生儿"
+      ],
+      "age_range": "0-1m",
+      "scenario": "feeding",
+      "warning_signs": [
+        "24小时内无胎便",
+        "血便",
+        "白陶土样便（胆道问题）",
+        "尿量持续减少"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-020",
+      "question": "烫伤怎么处理？",
+      "content": "立即'冲、脱、泡、盖、送'五步：1）流动凉水（不是冰水）冲15-30分钟；2）小心脱掉衣物（粘连皮肤不要硬撕）；3）继续凉水浸泡10-30分钟；4）干净纱布覆盖；5）立即送医。不要涂抹牙膏、酱油、香油、紫药水等。面积大于宝宝手掌或面颈部烫伤立即就医。",
+      "source": "WHO + 中国《儿童烧烫伤防治专家共识》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "急救",
+        "烫伤"
+      ],
+      "age_range": "0-6y",
+      "scenario": "emergency",
+      "warning_signs": [
+        "烫伤面积大",
+        "面颈部烫伤",
+        "深度烫伤（皮肤发白/焦黄）"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-021",
+      "question": "新生儿应该什么睡姿？",
+      "content": "每次睡觉都让宝宝仰卧（背部朝下），这是预防婴儿猝死综合征（SIDS）最重要的措施。不要俯卧或侧卧睡眠（除非医生特殊指导，例如某些胃食管反流严重的情况）。宝宝清醒且有人看护时可以趴（tummy time），帮助颈部和背部肌肉发育。",
+      "source": "AAP《婴儿睡眠安全指南》",
+      "source_url": "https://www.aap.org/en/patient-care/safe-sleep/",
+      "confidence": "high",
+      "tags": [
+        "睡眠",
+        "新生儿",
+        "SIDS"
+      ],
+      "age_range": "0-12m",
+      "scenario": "sleep_safety",
+      "warning_signs": [],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-022",
+      "question": "可以跟宝宝同床睡吗？",
+      "content": "不建议1岁以下宝宝与父母同床睡眠，会显著增加婴儿猝死综合征（SIDS）、窒息、压伤风险。最安全的安排是同房不同床：婴儿床放在父母床边。如果因母乳喂养等原因需要同床，必须遵守AAP安全规则：硬床垫、无枕头被褥、父母不饮酒/不服用镇静药物/不吸烟。",
+      "source": "AAP",
+      "source_url": "https://www.aap.org/en/patient-care/safe-sleep/",
+      "confidence": "high",
+      "tags": [
+        "睡眠",
+        "SIDS",
+        "新生儿"
+      ],
+      "age_range": "0-12m",
+      "scenario": "sleep_safety",
+      "warning_signs": [],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-023",
+      "question": "婴儿床垫和床品怎么选？",
+      "content": "床垫要硬实（按压后能回弹，宝宝不会陷进去），床单紧绷贴合。不要在婴儿床里放枕头、被子、毛绒玩具、防撞围栏、楔形枕等任何柔软物品——这些都会显著增加窒息和SIDS风险。建议使用睡袋代替被子保暖。",
+      "source": "AAP",
+      "source_url": "https://www.aap.org/en/patient-care/safe-sleep/",
+      "confidence": "high",
+      "tags": [
+        "睡眠",
+        "SIDS",
+        "新生儿"
+      ],
+      "age_range": "0-12m",
+      "scenario": "sleep_safety",
+      "warning_signs": [],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-024",
+      "question": "新生儿室温多少合适？穿多少？",
+      "content": "室温建议24-26°C，湿度50-60%。判断冷热摸后颈或后背：温热不出汗正好；出汗表示穿多了；凉表示穿少了。新生儿比成人多穿一件即可，避免过度包裹。禁止使用暖宝宝、电热毯、热水袋（烫伤风险）。",
+      "source": "AAP + 中国《母婴健康素养》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "日常护理",
+        "新生儿"
+      ],
+      "age_range": "0-12m",
+      "scenario": "daily_care",
+      "warning_signs": [],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-025",
+      "question": "脐带怎么护理？",
+      "content": "保持脐带残端干燥清洁是核心。每天用75%酒精或碘伏消毒脐带根部（不是脐带表面），直到脐带脱落（通常1-2周）。洗澡可以擦浴或短暂淋浴，避免长时间泡水。穿尿布时把前端折到脐带下方，避免摩擦和污染。脐带脱落后继续消毒几天直到完全愈合。",
+      "source": "中国《新生儿脐带护理临床实践指南》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "脐带",
+        "新生儿",
+        "日常护理"
+      ],
+      "age_range": "0-1m",
+      "scenario": "daily_care",
+      "warning_signs": [
+        "脐部红肿扩散",
+        "脓性分泌物",
+        "臭味",
+        "发烧"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-026",
+      "question": "新生儿怎么洗澡？",
+      "content": "健康新生儿脐带脱落后可以盆浴，每周2-3次即可（频繁洗澡会破坏皮肤油脂）。室温26-28°C，水温37-38°C（用手肘内侧试温）。顺序：脸→头→身体，重点清洗皱褶处（颈、腋下、腹股沟）。洗完立即擦干，特别是皱褶处。绝不能单独留宝宝在水里——一秒都不行。",
+      "source": "AAP",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "洗澡",
+        "新生儿",
+        "日常护理"
+      ],
+      "age_range": "0-12m",
+      "scenario": "daily_care",
+      "warning_signs": [],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-027",
+      "question": "红臀（尿布疹）怎么办？",
+      "content": "预防为主：勤换尿布（2-3小时一次或大便后立即换），每次大便后清水清洗，晾干或吹干后涂厚层含氧化锌的护臀膏。轻度尿布疹：暴露+护臀膏即可；中重度：需要弱效激素软膏（如地奈德），遵医嘱。警惕真菌感染（边界清楚、卫星灶、鲜红色），需要抗真菌药，需就医。",
+      "source": "AAP",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "红臀",
+        "尿布疹",
+        "新生儿"
+      ],
+      "age_range": "0-12m",
+      "scenario": "daily_care",
+      "warning_signs": [
+        "皮疹扩散到腹股沟外",
+        "出现溃疡或脓疱",
+        "伴发烧"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-028",
+      "question": "鹅口疮怎么识别和处理？",
+      "content": "鹅口疮是白色念珠菌感染，口腔黏膜（舌、颊内、腭）出现白色斑点或斑片，像奶渍但擦不掉（强行擦会露红或出血）。处理：制霉菌素混悬液涂口腔（遵医嘱）；奶瓶/奶嘴/乳头同步消毒治疗；母乳妈妈乳头也要治疗避免反复。反复发作或扩散需就医。",
+      "source": "AAP + UpToDate",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "鹅口疮",
+        "新生儿"
+      ],
+      "age_range": "0-12m",
+      "scenario": "daily_care",
+      "warning_signs": [
+        "拒奶",
+        "扩散到食管",
+        "反复发作"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-029",
+      "question": "肠绞痛怎么识别和缓解？",
+      "content": "肠绞痛（colic）定义：健康宝宝每天哭闹≥3小时、每周≥3天、持续≥3周（'3-3-3规则'），多在傍晚/夜间发作，3-4月龄多自行缓解。缓解方法：1）5S安抚法（侧卧、襁褓、嘘声白噪音、轻柔摇晃、吸吮）；2）飞机抱；3）排气操；4）规律喂养避免过饱过饿。注意：必须先排除病理原因（发烧、呕吐、血便）才判断为肠绞痛。",
+      "source": "AAP + 中国《婴儿肠绞痛临床诊疗路径》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "肠绞痛",
+        "哭闹",
+        "新生儿"
+      ],
+      "age_range": "0-4m",
+      "scenario": "daily_care",
+      "warning_signs": [
+        "伴发烧",
+        "伴呕吐胆汁",
+        "体重不增",
+        "血便"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-030",
+      "question": "宝宝哭闹怎么安抚？",
+      "content": "新生儿哭闹常见原因：饿了/困了/尿布湿了/冷热不适/肠绞痛/出牙（6月+）。5S安抚法（来自Harvey Karp）：1）Swaddling（襁褓——只在婴儿期且不会翻身时使用）；2）Side/Stomach Position（侧卧或趴位——清醒时）；3）Shushing（嘘声或白噪音）；4）Swinging（轻柔摇晃，不是抖动）；5）Sucking（吸吮乳头或奶嘴）。永远不要用力摇晃宝宝——可致摇晃婴儿综合征（脑出血、失明）。",
+      "source": "AAP + Harvey Karp《The Happiest Baby on the Block》",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "哭闹",
+        "安抚",
+        "新生儿"
+      ],
+      "age_range": "0-4m",
+      "scenario": "daily_care",
+      "warning_signs": [
+        "哭闹伴发烧",
+        "哭声尖直",
+        "嗜睡拒奶"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-046",
+      "question": "临产征兆有哪些？",
+      "content": "三大临产征兆：1）规律宫缩（每5分钟一次、每次持续30-60秒、持续1小时以上，越来越强，不因活动改变）；2）见红（少量血性黏液，量少于月经）；3）破水（清亮或淡黄色液体持续流出，无法控制，站立时更明显）。出现任一征兆需要立即去医院，特别是破水后要平躺、减少站立（防止脐带脱垂）。",
+      "source": "中国《妇产科学》第9版 + WHO",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "临产",
+        "孕期"
+      ],
+      "age_range": "pregnancy",
+      "scenario": "pregnancy",
+      "warning_signs": [
+        "破水后立即就医",
+        "大量出血（多于月经）",
+        "胎动明显减少"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-047",
+      "question": "见红和破水有什么区别？",
+      "content": "见红：少量粉红色或暗红色黏液流出（宫颈粘液栓脱落），通常出现在规律宫缩前24-48小时，量少于月经。破水：突然或持续流出清亮/淡黄色液体（胎膜破裂），无法控制，站立时更明显，有腥味而非尿味。两者都需要去医院。破水后建议立即平躺，减少站立（防止脐带脱垂），并记录破水时间和颜色。",
+      "source": "中国《妇产科学》第9版 + ACOG",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "临产",
+        "破水",
+        "见红",
+        "孕期"
+      ],
+      "age_range": "pregnancy",
+      "scenario": "pregnancy",
+      "warning_signs": [
+        "破水后立即就医",
+        "破水伴脐带脱出（立即抬高臀部+120）",
+        "羊水浑浊/黄绿"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-048",
+      "question": "真宫缩和假宫缩怎么区分？",
+      "content": "假性宫缩（Braxton Hicks）：不规律、强度不增加、持续时间短（<30秒）、改变体位可能消失、腹部发紧但无痛感，多在孕中晚期出现。真宫缩：规律（间隔逐渐缩短到5-10分钟）、强度逐渐增加、持续时间延长（30-60秒）、不因活动改变、伴宫颈扩张、有明显痛感（腰背酸+下腹紧缩）。无法区分时去医院检查，医生通过宫颈评估+胎心监护判断。",
+      "source": "中国《妇产科学》第9版 + ACOG",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "宫缩",
+        "孕期"
+      ],
+      "age_range": "pregnancy",
+      "scenario": "pregnancy",
+      "warning_signs": [
+        "37周前规律宫缩（可能早产）",
+        "无法区分真假宫缩",
+        "宫缩伴阴道出血"
+      ],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-049",
+      "question": "待产包要准备什么？",
+      "content": "证件：夫妻双方身份证、产检病历本、医保卡、准生证（如需要）、银行卡。妈妈用品：卫生巾（产妇专用加大码）、一次性内裤、哺乳内衣2-3件、出院衣服、拖鞋、洗漱用品、吸奶器、防溢乳垫、产褥垫、卫生纸。宝宝用品：连体衣2-3套、包被、帽子、NB码纸尿裤1包、小毛巾2-3条、浴巾、奶瓶/奶嘴（小号备用）、婴儿湿巾、护臀膏。证件单独放易取处。",
+      "source": "中国《妇产科学》第9版 + 三甲医院公开清单",
+      "source_url": "",
+      "confidence": "medium",
+      "tags": [
+        "待产",
+        "孕期",
+        "清单"
+      ],
+      "age_range": "pregnancy",
+      "scenario": "pregnancy",
+      "warning_signs": [],
+      "last_updated": "2026-06-26"
+    },
+    {
+      "id": "KB-050",
+      "question": "顺产和剖腹产怎么选？",
+      "content": "顺产优点：恢复快、并发症少、新生儿呼吸系统更好（产道挤压+肺部液体排出）、有助于母乳建立。剖腹产指征（医学需要）：胎位不正（臀位、横位）、前置胎盘、胎盘早剥、胎儿窘迫、巨大儿（≥4000g）、母亲骨盆狭窄、严重妊娠合并症、瘢痕子宫（部分情况）。WHO建议剖宫产率控制在10-15%。不要无医学指征要求剖宫产（会增加母体近远期并发症风险）。分娩方式由产科医生根据产程进展评估决定。",
+      "source": "WHO + 中国《妇产科学》第9版 + ACOG",
+      "source_url": "https://www.who.int/publications/i/item/9789241548364",
+      "confidence": "high",
+      "tags": [
+        "分娩",
+        "顺产",
+        "剖腹产",
+        "孕期"
+      ],
+      "age_range": "pregnancy",
+      "scenario": "pregnancy",
+      "warning_signs": [],
+      "last_updated": "2026-06-26"
+    }
+  ]
+}

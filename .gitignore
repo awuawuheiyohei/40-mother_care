@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Env (NEVER commit secrets)
+.env
+.env.local
+.env.*.local
+.env.bak
+.env.clean
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project data
+data/faiss.index
+data/*.bin
+data/*.pkl
+
+# Runtime logs (may contain user IDs, tokens, internal IPs)
+*.log
+data/*.log
+data/*.out.log
+data/cloudflared.*
+data/ngrok.*
+
+# User-provided content (may contain personal/medical info)
+inputs/
+outputs/
+
+# OS
+Thumbs.db
+.DS_Store
+*.bak
