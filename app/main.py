@@ -11,13 +11,12 @@ from pydantic import BaseModel
 
 from app import __version__
 from app.config import get_settings
-from app.pipeline import PipelineResult, handle_query, reset_retriever
+from app.pipeline import handle_query, reset_retriever
 from app.wechat import (
     build_encrypted_reply_envelope,
     build_text_reply_xml,
     is_encrypted_mode,
     parse_incoming_xml,
-    process_inbound,
     reply,
     verify_callback_url,
     verify_incoming_signature,

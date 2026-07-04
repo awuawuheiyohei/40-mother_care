@@ -12,13 +12,11 @@ from dataclasses import dataclass, field
 from typing import Any
 
 from app.composer import StructuredAnswer, compose, compose_fallback
-from app.config import get_settings
 from app.guardrails import (
     EMERGENCY_RESPONSE,
     NO_ANSWER_RESPONSE,
     append_disclaimer,
     check_citation_required,
-    check_emergency,
     check_retrieval_quality,
     enforce_citation,
     is_medical_sensitive_query,

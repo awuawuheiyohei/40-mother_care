@@ -8,7 +8,6 @@ just stable vectors that make the retrieval pipeline testable end-to-end.
 from __future__ import annotations
 
 import hashlib
-import math
 
 import httpx
 import numpy as np

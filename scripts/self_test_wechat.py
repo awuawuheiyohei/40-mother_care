@@ -31,9 +31,8 @@ def main() -> int:
         print("Need: WECHAT_CORP_ID, WECHAT_CALLBACK_TOKEN, WECHAT_CALLBACK_AES_KEY")
         return 1
 
-    ngrok_url = f"https://matcher-cufflink-penpal.ngrok-free.dev"
     base = s.app_host if False else "https://matcher-cufflink-penpal.ngrok-free.dev"
-    print(f"=== WeChat URL verification self-test ===")
+    print("=== WeChat URL verification self-test ===")
     print(f"  ngrok URL   : {base}")
     print(f"  corp_id     : {s.wechat_corp_id}")
     print(f"  token       : {s.wechat_callback_token[:4]}***")
@@ -63,7 +62,7 @@ def main() -> int:
     with httpx.Client(timeout=10.0) as client:
         resp = client.get(url)
 
-    print(f"=== Response ===")
+    print("=== Response ===")
     print(f"  HTTP {resp.status_code}")
     print(f"  Content-Type: {resp.headers.get('content-type', '?')}")
     body = resp.text

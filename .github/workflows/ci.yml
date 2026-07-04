@@ -1,0 +1,75 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: Lint (ruff + KB lint)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Ruff check
+        run: ruff check app tests scripts
+
+      - name: KB lint
+        run: |
+          echo "Running KB lint — must be 0 errors"
+          python -m app.kb.lint
+
+  smoke:
+    name: Smoke tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    needs: lint
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Run pytest
+        env:
+          # Force mock mode for LLM / embed (CI has no API keys)
+          LLM_API_KEY: ""
+          EMBED_API_KEY: ""
+          DINGTALK_APP_KEY: ""
+          DINGTALK_APP_SECRET: ""
+          WECHAT_CORP_ID: ""
+          WECHAT_AGENT_ID: ""
+          WECHAT_CORP_SECRET: ""
+          WECHAT_CALLBACK_TOKEN: ""
+          WECHAT_CALLBACK_AES_KEY: ""
+        run: |
+          pytest tests/ -v --tb=short --maxfail=3

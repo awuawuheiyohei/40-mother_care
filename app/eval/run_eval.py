@@ -20,7 +20,7 @@ from typing import Iterable
 from app.config import get_settings
 from app.kb.loader import load_kb
 from app.rag.embedder import get_embedder
-from app.rag.retriever import Retriever, RetrievalHit, reset_retriever
+from app.rag.retriever import Retriever, reset_retriever
 from app.rag.vector_store import FaissStore
 
 

@@ -34,7 +34,6 @@ from pathlib import Path
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 
-from app.config import get_settings  # noqa: E402
 from app.llm import get_llm  # noqa: E402
 
 
@@ -230,7 +229,6 @@ def cmd_extract(args: argparse.Namespace) -> int:
       Stage 2 (REVIEW):   medical accuracy/safety review by LLM
       Stage 3 (HUMAN):    user reviews review file and marks ✅/❌
     """
-    settings = get_settings()
     llm = get_llm()
 
     input_path = Path(args.input)
@@ -245,7 +243,7 @@ def cmd_extract(args: argparse.Namespace) -> int:
         return 1
 
     print(f"📥 处理 {len(items)} 条原帖...")
-    print(f"🔍 三道关卡：抽取 → 医学审核 → 人工最终确认\n")
+    print("🔍 三道关卡：抽取 → 医学审核 → 人工最终确认\n")
 
     candidates: list[dict] = []
 
@@ -274,7 +272,7 @@ def cmd_extract(args: argparse.Namespace) -> int:
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     lines: list[str] = []
-    lines.append(f"# XHS → KB 候选条目审核（人命关天三道关卡）\n")
+    lines.append("# XHS → KB 候选条目审核（人命关天三道关卡）\n")
     lines.append(f"_生成时间：{date.today().isoformat()}_\n")
     lines.append("")
     lines.append("## 流程说明")
@@ -327,7 +325,7 @@ def cmd_extract(args: argparse.Namespace) -> int:
 
             # Stage 2 review
             review = entry.get("_review", {})
-            lines.append(f"**🩺 Stage 2 医学审核结果：**")
+            lines.append("**🩺 Stage 2 医学审核结果：**")
             lines.append(f"> {entry.get('_review_summary', '?')}")
             if review.get("issues"):
                 lines.append("")
@@ -360,7 +358,7 @@ def cmd_extract(args: argparse.Namespace) -> int:
     lines.append(f"- ⚠️ 谨慎：{caution_count} 条（标 ✅ 前请仔细阅读）")
     lines.append(f"- ❌ 拒绝：{rejected_count} 条（默认 ❌）")
     lines.append("")
-    lines.append(f"**下一步**：编辑本文件，把 ✅ / ❌ 写到每条候选的「Stage 3 你的决定」后面，")
+    lines.append("**下一步**：编辑本文件，把 ✅ / ❌ 写到每条候选的「Stage 3 你的决定」后面，")
     lines.append(f"然后跑 `python -m app.kb.add_from_text --commit {output_path}`")
 
     output_path.write_text("\n".join(lines), encoding="utf-8")
@@ -370,12 +368,12 @@ def cmd_extract(args: argparse.Namespace) -> int:
     print(f"✅ Stage 1+2 完成，review 文件：{output_path}")
     print(f"   ✅ 通过：{approved_count}  ⚠️ 谨慎：{caution_count}  ❌ 拒绝：{rejected_count}")
     print()
-    print(f"下一步：")
+    print("下一步：")
     print(f"  1. 打开 {output_path}")
-    print(f"  2. 每条标 ✅ 或 ❌")
+    print("  2. 每条标 ✅ 或 ❌")
     print(f"  3. python -m app.kb.add_from_text --commit {output_path}")
-    print(f"  4. python -m app.kb.lint")
-    print(f"  5. python -m app.rag.build_index")
+    print("  4. python -m app.kb.lint")
+    print("  5. python -m app.rag.build_index")
     return 0
 
 
@@ -442,7 +440,6 @@ def cmd_commit(args: argparse.Namespace) -> int:
 
 def cmd_interactive(args: argparse.Namespace) -> int:
     """Truly simple: paste XHS content, get a KB entry, approve inline."""
-    settings = get_settings()
     llm = get_llm()
 
     print("=" * 60)
@@ -503,7 +500,7 @@ def cmd_interactive(args: argparse.Namespace) -> int:
             else:
                 empty_count = 0
                 lines.append(line)
-        if not any(l.strip() for l in lines):
+        if not any(line.strip() for line in lines):
             print("（空内容，已跳过）")
             continue
         content = "\n".join(lines).strip()
