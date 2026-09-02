@@ -32,8 +32,8 @@
 ### 1.2 拿 CorpID（企业 ID）
 
 - 我的企业 → 企业信息 → **企业 ID**
-- 形如 `ww1234567890abcdef`
-- **填到 `.env`**：`WECHAT_CORP_ID=ww1234567890abcdef`
+- 形如 `ww` 开头的一串字母数字
+- **填到 `.env`**：`WECHAT_CORP_ID=你的企业ID`
 
 ### 1.3 创建自建应用
 
