@@ -13,7 +13,7 @@
         <string>--url</string>
         <string>http://localhost:8000</string>
         <string>--logfile</string>
-        <string>/Users/jiangwenrui/Downloads/mass/mother_care/data/cloudflared.log</string>
+        <string>/Users/jiangwenrui/Downloads/mass/40-mother_care/data/cloudflared.log</string>
     </array>
 
     <key>RunAtLoad</key>
@@ -31,10 +31,10 @@
     <integer>30</integer>
 
     <key>StandardOutPath</key>
-    <string>/Users/jiangwenrui/Downloads/mass/mother_care/data/cloudflared.out.log</string>
+    <string>/Users/jiangwenrui/Downloads/mass/40-mother_care/data/cloudflared.out.log</string>
 
     <key>StandardErrorPath</key>
-    <string>/Users/jiangwenrui/Downloads/mass/mother_care/data/cloudflared.err.log</string>
+    <string>/Users/jiangwenrui/Downloads/mass/40-mother_care/data/cloudflared.err.log</string>
 
     <key>EnvironmentVariables</key>
     <dict>

@@ -7,13 +7,13 @@
 
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/jiangwenrui/Downloads/mass/mother_care/.venv/bin/python</string>
+        <string>/Users/jiangwenrui/Downloads/mass/40-mother_care/.venv/bin/python</string>
         <string>-m</string>
         <string>app.dingtalk.bot</string>
     </array>
 
     <key>WorkingDirectory</key>
-    <string>/Users/jiangwenrui/Downloads/mass/mother_care</string>
+    <string>/Users/jiangwenrui/Downloads/mass/40-mother_care</string>
 
     <key>RunAtLoad</key>
     <true/>
@@ -30,15 +30,15 @@
     <integer>10</integer>
 
     <key>StandardOutPath</key>
-    <string>/Users/jiangwenrui/Downloads/mass/mother_care/data/dingtalk.log</string>
+    <string>/Users/jiangwenrui/Downloads/mass/40-mother_care/data/dingtalk.log</string>
 
     <key>StandardErrorPath</key>
-    <string>/Users/jiangwenrui/Downloads/mass/mother_care/data/dingtalk.err.log</string>
+    <string>/Users/jiangwenrui/Downloads/mass/40-mother_care/data/dingtalk.err.log</string>
 
     <key>EnvironmentVariables</key>
     <dict>
         <key>PATH</key>
-        <string>/Users/jiangwenrui/Downloads/mass/mother_care/.venv/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+        <string>/Users/jiangwenrui/Downloads/mass/40-mother_care/.venv/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
         <key>PYTHONUNBUFFERED</key>
         <string>1</string>
     </dict>

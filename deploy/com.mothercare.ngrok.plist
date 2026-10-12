@@ -12,7 +12,7 @@
         <string>8000</string>
         <string>--domain=matcher-cufflink-penpal.ngrok-free.dev</string>
         <string>--log</string>
-        <string>/Users/jiangwenrui/Downloads/mass/mother_care/data/ngrok.log</string>
+        <string>/Users/jiangwenrui/Downloads/mass/40-mother_care/data/ngrok.log</string>
         <string>--log-format=json</string>
     </array>
 
@@ -31,10 +31,10 @@
     <integer>10</integer>
 
     <key>StandardOutPath</key>
-    <string>/Users/jiangwenrui/Downloads/mass/mother_care/data/ngrok.out.log</string>
+    <string>/Users/jiangwenrui/Downloads/mass/40-mother_care/data/ngrok.out.log</string>
 
     <key>StandardErrorPath</key>
-    <string>/Users/jiangwenrui/Downloads/mass/mother_care/data/ngrok.err.log</string>
+    <string>/Users/jiangwenrui/Downloads/mass/40-mother_care/data/ngrok.err.log</string>
 
     <key>EnvironmentVariables</key>
     <dict>
