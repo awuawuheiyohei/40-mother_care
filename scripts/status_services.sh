@@ -10,21 +10,21 @@ DATA_DIR="$PROJECT_DIR/data"
 NGROK_DOMAIN="${NGROK_DOMAIN:-matcher-cufflink-penpal.ngrok-free.dev}"
 
 echo "=== launchd status ==="
-if launchctl list | grep -q com.mothercare.uvicorn; then
-    PID=$(launchctl list | grep com.mothercare.uvicorn | awk '{print $1}')
-    echo "  uvicorn     : loaded (pid $PID)"
-else
-    echo "  uvicorn     : NOT LOADED"
-fi
+# Capture once and match with herestrings: piping launchctl into `grep -q` makes
+# grep exit early, launchctl takes SIGPIPE, and `set -o pipefail` turns that into
+# a false "NOT LOADED" (reproducible for whichever label sorts first).
+LAUNCHD_LIST="$(launchctl list)"
 
-if launchctl list | grep -q com.mothercare.ngrok; then
-    PID=$(launchctl list | grep com.mothercare.ngrok | awk '{print $1}')
-    echo "  ngrok       : loaded (pid $PID)"
-else
-    echo "  ngrok       : NOT LOADED"
-fi
+for svc in uvicorn ngrok dingtalk; do
+    if grep -q "com.mothercare.$svc" <<<"$LAUNCHD_LIST"; then
+        PID=$(awk -v label="com.mothercare.$svc" '$3 == label {print $1}' <<<"$LAUNCHD_LIST")
+        printf "  %-11s : loaded (pid %s)\n" "$svc" "$PID"
+    else
+        printf "  %-11s : NOT LOADED\n" "$svc"
+    fi
+done
 
-if launchctl list | grep -q com.mothercare.cloudflared; then
+if grep -q "com.mothercare.cloudflared" <<<"$LAUNCHD_LIST"; then
     echo "  cloudflared : STILL LOADED (legacy — should be removed)"
 fi
 
@@ -54,4 +54,12 @@ echo ""
 echo "=== ngrok log (last 5 lines) ==="
 if [ -f "$DATA_DIR/ngrok.log" ]; then
     tail -5 "$DATA_DIR/ngrok.log" 2>/dev/null | grep -oE '"msg":"[^"]+"' | head -5 || echo "  (empty)"
+fi
+
+echo ""
+echo "=== dingtalk log (last 5 lines) ==="
+if [ -f "$DATA_DIR/dingtalk.log" ]; then
+    tail -5 "$DATA_DIR/dingtalk.log" 2>/dev/null || echo "  (empty)"
+else
+    echo "  (no $DATA_DIR/dingtalk.log)"
 fi
