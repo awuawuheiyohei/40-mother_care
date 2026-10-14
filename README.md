@@ -2,7 +2,7 @@
 
 > 一个**高可信、可控、可溯源**的母婴 AI 助手 —— 给自家宝宝用的，所以宁可漏答、不可错答。
 
-[![Lint + Smoke](https://github.com/awuawuheiyohei/mother-care/actions/workflows/ci.yml/badge.svg)](https://github.com/awuawuheiyohei/mother-care/actions/workflows/ci.yml)
+[![Lint + Smoke](https://github.com/awuawuheiyohei/40-mother_care/actions/workflows/ci.yml/badge.svg)](https://github.com/awuawuheiyohei/40-mother_care/actions/workflows/ci.yml)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![KB entries](https://img.shields.io/badge/KB-51-brightgreen.svg)](./app/kb/data)
 

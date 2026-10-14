@@ -91,7 +91,7 @@ mass/ 目录每轮整理都会加 `NN-` 前缀，写死路径的代码每次都�
 
 ## 远端
 
-- remote：`https://github.com/awuawuheiyohei/mother-care.git`
+- remote：`https://github.com/awuawuheiyohei/40-mother_care.git`
 - **必须用 HTTPS，不要用 SSH。** 本机 TUN 代理（Clash/Surge 类 fake-IP）不透传
   SSH 流量：`github.com` 和 `ssh.github.com` 都解析到 `198.18.0.0/15` 的假 IP，
   22 和 443 端口都在 banner 阶段超时。HTTPS 走 `gh auth git-credential` 认证，
